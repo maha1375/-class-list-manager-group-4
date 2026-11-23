@@ -15,10 +15,21 @@ def search_name(names, name="Latifah"):
 # Written by: Raneem (task3) 
 def sort_names(names):
     return sorted(name) 
+# Written by: [maha] (task 4)
+def longest_name(names):
+    longest = names[0]
+    for name in names:
+        if len(name.strip()) > len(longest.strip()):
+            longest = name.strip()
+    return longest
+
+    
 def main():
 print("Welcome to the Class List Manager!")
 print("Class list:", names)
 # Each student calls her function here, for example:
 print("Number of names:", count_names(names))
 print("Sorted names:", sort_names(names)) 
+print("Longest name:", longest_name(names))
+
 main()
