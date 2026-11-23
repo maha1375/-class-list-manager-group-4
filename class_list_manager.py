@@ -11,7 +11,7 @@ def search_name(names, name="Latifah"):
     for n in names:
         if n.strip().lower() == name.lower():
             return "Name is found"
-    return "Name is not found" 
+    return "Name is not found"
     
 def main():
 print("Welcome to the Class List Manager!")
