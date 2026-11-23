@@ -5,6 +5,14 @@ names = [" maha", "Latifah", "Raneem ", "Fatima", "Jumanah"]
 # Written by: Fatima (Task 1)
 def count_names(names):
     return len(names)
+
+# Written by: Latifah (task 2)
+def search_name(names, name="Latifah"):
+    for n in names:
+        if n.strip().lower() == name.lower():
+            return "Name is found"
+    return "Name is not found"
+    
 def main():
 print("Welcome to the Class List Manager!")
 print("Class list:", names)
