@@ -22,7 +22,13 @@ def longest_name(names):
         if len(name.strip()) > len(longest.strip()):
             longest = name.strip()
     return longest
-
+# Written by: Jumanah (Task 5)
+def names_starting_with(names, letter):
+    result = []
+    for name in names:
+        if name.startswith(letter):
+            result.append(name)
+    return result
     
 def main():
 print("Welcome to the Class List Manager!")
@@ -31,5 +37,6 @@ print("Class list:", names)
 print("Number of names:", count_names(names))
 print("Sorted names:", sort_names(names)) 
 print("Longest name:", longest_name(names))
+print("Names starting with J:", names_starting_with(names, "J"))
 
 main()
