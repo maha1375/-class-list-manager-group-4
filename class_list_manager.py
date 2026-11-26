@@ -1,6 +1,6 @@
 # Class List Manager - Group _4_
 # MIS 211 Bonus Assignment (GitHub Teamwork)
-names = [" maha", "Latifah", "Raneem ", "Fatima", "Jumanah"]
+names = ["Maha", "Latifah", "Raneem ", "Fatima", "Jumanah"]
 # ===== Each student adds her function BELOW this line =====
 # Written by: Fatima (Task 1)
 def count_names(names):
@@ -18,7 +18,7 @@ def search_name(names, name="Latifah"):
 # Written by: Raneem (task3) 
 def sort_names(names):
     return sorted(names) 
-# Written by: [maha] (Task 5)
+# Written by: [Maha] (Task 5)
 def names_starting_with(names, letter):
     result = []
     for name in names:
