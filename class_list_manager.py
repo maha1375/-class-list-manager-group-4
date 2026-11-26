@@ -13,7 +13,6 @@ def search_name(names, name="Latifah"):
         if n.strip().lower() == target:
             return True
     return False
-
     
 # Written by: Raneem (task3) 
 def sort_names(names):
