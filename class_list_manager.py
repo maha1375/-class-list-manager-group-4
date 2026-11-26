@@ -8,10 +8,12 @@ def count_names(names):
 
 # Written by: Latifah (task 2)
 def search_name(names, name="Latifah"):
+    target = name.strip().lower()
     for n in names:
-        if n.strip().lower() == name.lower():
-            return "Name is found"
-    return "Name is not found"
+        if n.strip().lower() == target:
+            return True
+    return False
+
     
 # Written by: Raneem (task3) 
 def sort_names(names):
@@ -35,6 +37,7 @@ print("Welcome to the Class List Manager!")
 print("Class list:", names)
 # Each student calls her function here, for example:
 print("Number of names:", count_names(names))
+print("Is Latifah found?:", search_name(names, "Latifah"))
 print("Sorted names:", sort_names(names)) 
 print("Names starting with M:", names_starting_with(names, "M"))
 print("Uppercase names:", to_upper(names))
