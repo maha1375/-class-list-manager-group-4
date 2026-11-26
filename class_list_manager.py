@@ -36,7 +36,7 @@ print("Class list:", names)
 # Each student calls her function here, for example:
 print("Number of names:", count_names(names))
 print("Sorted names:", sort_names(names)) 
-print("Longest name:", longest_name(names))
+print("Names starting with M:", names_starting_with(names, "M"))
 print("Names starting with J:", names_starting_with(names, "J"))
 
 main()
