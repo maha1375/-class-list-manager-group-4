@@ -29,6 +29,12 @@ def names_starting_with(names, letter):
         if name.startswith(letter):
             result.append(name)
     return result
+# Written by: Jumanah (Task 6)
+def to_upper(names):
+    result = []
+    for name in names:
+        result.append(name.upper())
+    return result
     
 def main():
 print("Welcome to the Class List Manager!")
@@ -38,5 +44,5 @@ print("Number of names:", count_names(names))
 print("Sorted names:", sort_names(names)) 
 print("Names starting with M:", names_starting_with(names, "M"))
 print("Names starting with J:", names_starting_with(names, "J"))
-
+print("Uppercase names:", to_upper(names))
 main()
