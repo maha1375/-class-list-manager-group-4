@@ -15,13 +15,13 @@ def search_name(names, name="Latifah"):
 # Written by: Raneem (task3) 
 def sort_names(names):
     return sorted(name) 
-# Written by: [maha] (task 5)
-def longest_name(names):
-    longest = names[0]
+# Written by: [maha] (Task 5)
+def names_starting_with(names, letter):
+    result = []
     for name in names:
-        if len(name.strip()) > len(longest.strip()):
-            longest = name.strip()
-    return longest
+        if name.strip().lower().startswith(letter.lower()):
+            result.append(name.strip())
+    return result
 # Written by: Jumanah (Task 5)
 def names_starting_with(names, letter):
     result = []
