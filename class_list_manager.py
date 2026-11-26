@@ -22,13 +22,6 @@ def names_starting_with(names, letter):
         if name.strip().lower().startswith(letter.lower()):
             result.append(name.strip())
     return result
-# Written by: Jumanah (Task 5)
-def names_starting_with(names, letter):
-    result = []
-    for name in names:
-        if name.startswith(letter):
-            result.append(name)
-    return result
     
 def main():
 print("Welcome to the Class List Manager!")
@@ -37,6 +30,6 @@ print("Class list:", names)
 print("Number of names:", count_names(names))
 print("Sorted names:", sort_names(names)) 
 print("Names starting with M:", names_starting_with(names, "M"))
-print("Names starting with J:", names_starting_with(names, "J"))
+
 
 main()
