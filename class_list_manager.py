@@ -14,7 +14,7 @@ def search_name(names, name="Latifah"):
     return "Name is not found"
 # Written by: Raneem (task3) 
 def sort_names(names):
-    return sorted(name) 
+    return sorted(names) 
 # Written by: [maha] (Task 5)
 def names_starting_with(names, letter):
     result = []
