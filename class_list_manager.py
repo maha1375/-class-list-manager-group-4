@@ -15,7 +15,7 @@ def search_name(names, name="Latifah"):
 # Written by: Raneem (task3) 
 def sort_names(names):
     return sorted(name) 
-# Written by: [maha] (task 4)
+# Written by: [maha] (task 5)
 def longest_name(names):
     longest = names[0]
     for name in names:
